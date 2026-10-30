@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content"
+    />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#f5efe6" />
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("zeus-theme") === "dark" ? "dark" : "light";
+      } catch {
+        document.documentElement.dataset.theme = "light";
+      }
+    </script>
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href="./assets/manrope-cyrillic-Dvxsihut.woff2"
+      crossorigin
+    />
+    <title>Zeus AI — создайте своё</title>
+    <meta
+      name="description"
+      content="Попробуйте студию Zeus AI: тестовый чат с помощником, интерактивные проекты, история правок и экспорт кода."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2288%22>⚡</text></svg>"
+    />
+    <script type="module" crossorigin src="./assets/index-DYr15fbf.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DrHq-PBQ.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
